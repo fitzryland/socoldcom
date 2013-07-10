@@ -136,7 +136,7 @@ require get_template_directory() . '/inc/jetpack.php';
 //require get_template_directory() . '/inc/wpcom.php';
 
 
-
+add_image_size('side_image', '400', '300', true);
 
 
 function custom_acf_image_output($aImg, $class, $size) {
