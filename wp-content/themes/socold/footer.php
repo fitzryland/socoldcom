@@ -13,6 +13,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<?php dynamic_sidebar('footer-1'); ?>
+			<?php dynamic_sidebar('footer-2'); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

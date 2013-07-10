@@ -202,6 +202,18 @@ footer {
 }
 .site-info { // inner footer
 	@extend %block;
+	aside {
+		@include break(tablet) {
+			float: left;
+			padding: 1em;
+			width: 50%;
+		}
+		@include break(desktop) {
+			float: left;
+			padding: 1em;
+			width: 50%;
+		}
+	}
 }
 // `7MM"""Mq.
 //   MM   `MM.
