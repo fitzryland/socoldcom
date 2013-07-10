@@ -30,9 +30,8 @@
 					</a>
 				</h1>
 				<h2 class="site-description"><?php the_field('text_under_logo', 'option'); ?></h2>
-				<div class="tagline"><?php the_field('text_right_of_logo', 'option'); ?></div>
+				<div class="site-tagline"><?php the_field('text_right_of_logo', 'option'); ?></div>
 			</div>
-
 			<nav id="site-navigation" class="navigation-main" role="navigation">
 				<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', '_s' ); ?>"><?php _e( 'Skip to content', '_s' ); ?></a></div>
 

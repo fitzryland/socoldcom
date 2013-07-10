@@ -379,50 +379,9 @@ a:active {
   clear: both; }
 
 /* =Menu
------------------------------------------------ */
-.navigation-main {
-  clear: both;
-  display: block;
-  float: left;
-  width: 100%; }
-
-.navigation-main ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 0; }
-
-.navigation-main li {
-  float: left;
-  position: relative; }
-
-.navigation-main a {
-  display: block;
-  text-decoration: none; }
-
-.navigation-main ul ul {
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-  display: none;
-  float: left;
-  position: absolute;
-  top: 1.5em;
-  left: 0;
-  z-index: 99999; }
-
-.navigation-main ul ul ul {
-  left: 100%;
-  top: 0; }
-
-.navigation-main ul ul a {
-  width: 200px; }
-
-.navigation-main ul li:hover > ul {
-  display: block; }
-
-/* Small menu */
-.menu-toggle {
-  display: none;
-  cursor: pointer; }
-
+-----------------------------------------------
+Fitz Removed stupid menu styling.
+*/
 /* =Content
 ----------------------------------------------- */
 .hentry {
@@ -567,6 +526,30 @@ img {
 .headWrap {
   background-color: white;
   border-bottom: 0.2em solid #2a639e; }
+
+.site-branding h1, .site-branding h2 {
+  float: left; }
+  @media only screen and (max-width: 640px) {
+    .site-branding h1, .site-branding h2 {
+      float: none; } }
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .site-tagline {
+    margin-left: 20em; } }
+@media only screen and (min-width: 979px) {
+  .site-tagline {
+    margin-left: 21em; } }
+
+.menu-main-navigation-container {
+  text-align: center; }
+  .menu-main-navigation-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .menu-main-navigation-container li {
+    display: inline;
+    margin: 0;
+    padding: 0; }
 
 .content-area {
   background-color: rgba(255, 255, 255, 0.5);

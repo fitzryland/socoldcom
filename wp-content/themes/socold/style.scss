@@ -156,6 +156,35 @@ img {
 header {
 	@extend %block;
 }
+.site-branding {
+	h1, h2 {
+		float: left;
+		@include break(mobile) {
+			float: none;
+		}
+	}
+}
+.site-tagline {
+	@include break(tablet) {
+		margin-left: 20em;
+	}
+	@include break(desktop) {
+		margin-left: 21em;
+	}
+}
+.menu-main-navigation-container {
+	text-align: center;
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		display: inline;
+		margin: 0;
+		padding: 0;
+	}
+}
 .site-main {
 	@extend %blockWrap;
 }
