@@ -575,6 +575,12 @@ img {
   background-color: white;
   border-bottom: 0.2em solid #2a639e; }
 
+.content-area {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0.2em solid #2a639e;
+  margin: 1em auto;
+  padding: 1em; }
+
 footer {
   background-color: #2a639e;
   border-top: 0.2em solid white; }

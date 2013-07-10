@@ -111,10 +111,6 @@ $white: #FFFFFF;
 		width: 61em; // 976px
 	}
 }
-%fillBox {
-	background-color: transparentize($white, 0.1);
-	border: 0.2em solid $blue;
-}
 //              ,,        ,,
 //   .g8""8q.  *MM        db                    mm
 // .dP'    `YM. MM                              MM
@@ -165,6 +161,10 @@ header {
 }
 .content-area {
 	@extend %block;
+	background-color: transparentize($white, 0.5);
+	border: 0.2em solid $blue;
+	margin: 1em auto;
+	padding: 1em;
 }
 footer {
 	@extend %blockWrap;

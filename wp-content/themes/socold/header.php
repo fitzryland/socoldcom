@@ -24,8 +24,13 @@
 	<div class="headWrap">
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-branding">
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+				<h1 class="site-title">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+						<?php echo custom_acf_image_output(get_field('header_logo', 'option'), '', ''); ?>
+					</a>
+				</h1>
+				<h2 class="site-description"><?php the_field('text_under_logo', 'option'); ?></h2>
+				<div class="tagline"><?php the_field('text_right_of_logo', 'option'); ?></div>
 			</div>
 
 			<nav id="site-navigation" class="navigation-main" role="navigation">
