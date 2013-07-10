@@ -423,13 +423,6 @@ a:active {
   display: none;
   cursor: pointer; }
 
-@media screen and (max-width: 600px) {
-  .menu-toggle,
-  .navigation-main.toggled-on .nav-menu {
-    display: block; }
-
-  .navigation-main ul {
-    display: none; } }
 /* =Content
 ----------------------------------------------- */
 .hentry {
