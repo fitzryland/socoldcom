@@ -1,0 +1,1421 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"list-sy",
+				"list-style-type"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"activity",
+				"activity_count"
+			],
+			[
+				"acti",
+				"activity_count"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"stage",
+				"stagesRes"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"audio",
+				"audioStr"
+			],
+			[
+				"audioS",
+				"audioStr"
+			],
+			[
+				"aud",
+				"audioEndPos"
+			],
+			[
+				"lesson",
+				"lessonContent"
+			],
+			[
+				"au",
+				"audioStartStr"
+			],
+			[
+				"audi",
+				"audioCount"
+			],
+			[
+				"work",
+				"workout"
+			],
+			[
+				"serie",
+				"series_posts"
+			],
+			[
+				"ser",
+				"series_posts"
+			],
+			[
+				"athlete",
+				"athlete_toolbox_tabs"
+			],
+			[
+				"slide",
+				"slideToggle"
+			],
+			[
+				"read_more",
+				"read_more_content"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"content",
+				"contentString"
+			],
+			[
+				"conte",
+				"contentString"
+			],
+			[
+				"gr",
+				"gray"
+			],
+			[
+				"seri",
+				"series-next-wrap"
+			],
+			[
+				"series",
+				"series-prev-wrap"
+			],
+			[
+				"dark",
+				"darken"
+			],
+			[
+				"currn",
+				"current_user_array"
+			],
+			[
+				"current",
+				"current_user"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"light",
+				"lightGray"
+			],
+			[
+				"media",
+				"mediaDesc"
+			],
+			[
+				"button",
+				"buttonLightGreen"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"internal",
+				"internal_header"
+			],
+			[
+				"tra",
+				"transparentize"
+			],
+			[
+				"transi",
+				"transition-property"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"worked",
+				"workedSeries"
+			],
+			[
+				"genesis",
+				"genesis_do_loop"
+			],
+			[
+				"grou",
+				"groupPartClear"
+			],
+			[
+				"the",
+				"the_field"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"wp_enque",
+				"wp_enqueue_scripts"
+			],
+			[
+				"over",
+				"overlayBlack"
+			],
+			[
+				"after",
+				"after_widget"
+			],
+			[
+				"no",
+				"noShadowRadius"
+			],
+			[
+				"tr",
+				"transparentBG"
+			],
+			[
+				"team",
+				"teamIcons"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"pro",
+				"programItem"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"latestP",
+				"latestPostCount"
+			],
+			[
+				"latest",
+				"latestPostCount"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"img",
+				"imgSrt"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"remove",
+				"remove_action"
+			],
+			[
+				"lightGr",
+				"lightGray"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"bla",
+				"overlayBlack"
+			],
+			[
+				"dar",
+				"darken"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"overlay",
+				"overlayBlack"
+			],
+			[
+				"medi",
+				"mediaBlock"
+			],
+			[
+				"sec",
+				"secBorderW"
+			],
+			[
+				"mobi",
+				"mobileWidth"
+			],
+			[
+				"full",
+				"fullWidth"
+			],
+			[
+				"scro",
+				"scrollElement"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"post",
+				"postThumb"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"style",
+				"stylesheet"
+			],
+			[
+				"or",
+				"orange"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"block",
+				"blockWrap"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"foot",
+				"footerColor"
+			],
+			[
+				"foo",
+				"footerColor"
+			],
+			[
+				"ip",
+				"iPhoneM"
+			],
+			[
+				"iP",
+				"iPhoneP"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"iPhon",
+				"iPhoneP"
+			],
+			[
+				"iPhone",
+				"iPhoneM"
+			],
+			[
+				"iPh",
+				"iPhoneM"
+			],
+			[
+				"iPad",
+				"iPadL"
+			],
+			[
+				"ho",
+				"homeBanner"
+			],
+			[
+				"slid",
+				"sliderH"
+			],
+			[
+				"iPho",
+				"iPhoneM"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"Slide",
+				"Slideshow"
+			],
+			[
+				"plO",
+				"plObjs"
+			],
+			[
+				"plo",
+				"plObjs"
+			],
+			[
+				"pl",
+				"plObj"
+			],
+			[
+				"plObjs",
+				"plObjsRaw"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"bg",
+				"bgPosNum"
+			],
+			[
+				"scale",
+				"scalseStopPos"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"the_",
+				"the_title"
+			],
+			[
+				"na",
+				"offsetForNav"
+			],
+			[
+				"off",
+				"offsetForNav"
+			],
+			[
+				"offset",
+				"offsetTop"
+			],
+			[
+				"men",
+				"menu_object"
+			],
+			[
+				"title",
+				"title_attr"
+			],
+			[
+				"menu",
+				"menu_object"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"about",
+				"aboutPage"
+			],
+			[
+				"ab",
+				"aboutPage"
+			],
+			[
+				"desc",
+				"description"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/SASS Build/SASS.sublime-build",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"ipsum",
+				"LoremIpsum: (30) lots"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"git gui",
+				"Git: Gui"
+			],
+			[
+				"git ",
+				"Git: Gui"
+			],
+			[
+				"git bran",
+				"Git: Change Branch"
+			],
+			[
+				"git branch",
+				"Git: Change Branch"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"color",
+				"Color picker"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"wordpre",
+				"WordPress Codex: Search Selection"
+			],
+			[
+				"wordpres",
+				"WordPress Codex: Search Selection"
+			],
+			[
+				"wordpress",
+				"WordPress Codex: Search from Input"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"wordp",
+				"WordPress Codex: Open Function Reference"
+			],
+			[
+				"word",
+				"WordPress Codex: Search Selection"
+			],
+			[
+				"duplica",
+				"File: Duplicate"
+			],
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git comi",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"project",
+				"Project: Edit"
+			],
+			[
+				"project ed",
+				"Project: Edit"
+			],
+			[
+				"proje",
+				"Project: Save As"
+			],
+			[
+				"fet",
+				"Fetch: Manage"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"syn jasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/home-template.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/documentation.txt",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/plugins/wpdevph-assessment/css/assessment-style.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/dashboard_activity.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/internal-header.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/plugins/post-series/post-series.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/dashboard_tabs.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/dashboard_athlete_toolbox.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/dashboard.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/plugins/membermouse/includes/mm-constants.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/plugins/ubermenu/help/index.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/module-loop.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/dashboard_workouts.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/dashboard_coachs_corner.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/functions.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/js/grandchild_js.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/repeating-template.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/main.scss",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/single.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/dependencies_list.txt",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/x_2013.06.27_dashboard_tabs.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/dashboard_team_admin.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/dashboard_group.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/plugins/post-series/assets/js/series.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/main.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/footer.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/register_sidebars.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/grandchildSidebars.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/footer_widgets.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/back/functions.php",
+		"/Users/fitzryland/Dropbox/Backups/Positive Performance/positivePerformanceDump.2013.06.18.pm.sql",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/notes.txt",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/x_dashboard_tabs.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/x_dashboard.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/x_dashboard_activity.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/x_dashboard_workouts.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/fieldManipulation.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/dashboard_goals.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/reset.scss",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/resetTemplate.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/page.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/404.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/maintenance.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/maintenanceSupport/maintenance.scss",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/maintenance.scss",
+		"/Users/fitzryland/Dropbox/Backups/Positive Performance/positivePerformanceDump.2013.06.18.earlyAM.sql",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/member_home-template.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/dashboard_coaches_corner.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/genesis/single.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/header.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/plugins/wpdevph-assessment/assessment.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/dashboard_journals.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/lifegoals.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/plugins/membermouse/index.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/boooom.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/genesis/lib/structure/loops.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/index.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/lib/blog_custom_loop.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/HOLDpage.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/reset.css",
+		"/Users/fitzryland/Dropbox/Backups/Positive Performance/positivePerformanceDump.2013.06.16.sql",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/newsletter-template.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/sidebar-secondary.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/genesis/lib/structure/sidebar.php",
+		"/Users/fitzryland/Dropbox/Backups/Positive Performance/positivePerformanceDump.2013.06.15.sql",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/genesis/header.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/ppc_genesis_grandchild/js/jcarousel.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/page_blog.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/HOLDindex.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/genesis/page_blog.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/parts/main.scss",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/parts/reset.scss",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/parts/notes.txt",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/parts/footer.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/parts/header.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/parts/resetTemplate.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/twentytwelve/index.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/twentytwelve/single.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/twentytwelve/category.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/parts/fieldManipulation.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/parts/_reset.scss",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/genesis/sidebar-alt.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/blog-template.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/genesis/footer.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/parts/scss/reset.scss",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis/parts/reset.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/twentyten/loop.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/workwithfitzto/notes.txt",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/workwithfitzto/_posts/2013-05-27-wpSecurity.markdown",
+		"/Users/fitzryland/Dropbox/Notes/2013.05.25.notes.txt",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/zerostrategistcom/wp-content/themes/Tersus-Child/style.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/ourstory.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/directions.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/accomodations.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/weddingparty.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/index.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/css/main.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/_includes/nav.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/CNAME",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/jessicaandwilliaminfo.sublime-project",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/jessicaandwilliaminfo.sublime-workspace",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/User/Sass.sublime-settings",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/css/normalize.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/_config.yml",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/_includes/nav.ext",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/notes.txt",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/thingstodo.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/registry.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/schedule.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/options.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/functions.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/index.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/style-icons.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/sidebar.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/page-home.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/header.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/sidebar.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/js/js.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/single-project.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/footer.php",
+		"/Users/fitzryland/Dropbox/design/Enspire Studios/enspirestudios-icons28238/index.html",
+		"/Users/fitzryland/Dropbox/design/Enspire Studios/enspirestudios-icons28238/style.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/js/theme_trust_edit.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/style.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/js/theme_trust.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<project>",
+			"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis,/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/plugins",
+			"<projects>",
+			"<project>",
+			"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/positiveperformancecom/wp-content/themes/ppc_genesis",
+			"",
+			"<open projects>",
+			"<open projectss>",
+			"<open files>",
+			"<project>",
+			"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest",
+			"<project>",
+			"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust",
+			"<project>",
+			"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest",
+			"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"display_assessment_link",
+			"transi",
+			"background-color 0.2s ease",
+			"transition",
+			"athletes",
+			"module",
+			"internalHeaderWrap",
+			"3",
+			"wp_debug_mode",
+			"WP_DEBUG",
+			"debug",
+			"degub",
+			"'WP_DEBUG', true",
+			"WP_DEBUG",
+			"audioStr",
+			"workout",
+			"series-list",
+			"series-content2",
+			"shadow",
+			"$aldrich",
+			"$lightestBlue",
+			"$lightBlue",
+			"$orange",
+			"activity",
+			"member_name",
+			".member_meta",
+			"Coach's",
+			"next",
+			"single_module_loop",
+			"postType",
+			"current_user",
+			"$uid",
+			"workedSql",
+			"workedResult",
+			"workedSeries",
+			"workouts_tabs_content",
+			"this",
+			"lob",
+			"tabs[i]",
+			"$",
+			"series-nav-link-wrap",
+			"series-content2",
+			"Team Signup link",
+			"series-nav",
+			"activityDatetoArr",
+			"activityDateAgo",
+			"known",
+			"$current_user->ID",
+			".shadow",
+			"gradient",
+			"blog",
+			".media ",
+			".left",
+			"-webkit-linear-",
+			"-5deg",
+			"footer-",
+			"Footer ",
+			"Footer",
+			"footer-",
+			"footer",
+			"register_sidebar",
+			"footer-1",
+			"footer",
+			"teamIcon",
+			"account",
+			"module",
+			"_the_content",
+			"_get_the_content2",
+			"series-content2",
+			"genesis_after_post_content",
+			"post-formats",
+			"button",
+			"member-home",
+			"GroupUserActivityDatetoArr",
+			"workout_stages",
+			"header",
+			"nav",
+			"</div>",
+			"style",
+			"$menuOrder",
+			"Review",
+			"Get Started",
+			"coaches",
+			"header",
+			"single_page_loop",
+			"blog_page_loop",
+			"header.php",
+			"mediaGrid",
+			"media",
+			"$play",
+			"400",
+			"genesis_sidebar",
+			"myuser_widget",
+			"$blue",
+			"darken($green, 10%)",
+			"buttonLightGreen",
+			"margin-top: 34px;",
+			"\\",
+			"assessment_mentality",
+			"assessDiv",
+			"post_excerpt",
+			"PlaceholderText",
+			"content",
+			"before",
+			"after",
+			"genesis_before_post_content",
+			".sidebar",
+			"#content",
+			"WP_DEBUG",
+			"genesis_post_content",
+			"genesis_standard_loop",
+			"genesis_do_loop",
+			"genesis_child_paid_member_home",
+			"blog_custom_loop",
+			"blog",
+			"sidebar",
+			".shadow",
+			"box-shadow",
+			"add_image_size",
+			"genesis_sidebar_alt",
+			"secondary-sidebar",
+			".home",
+			"results",
+			"bene",
+			"button",
+			"right",
+			"jQuery($slides)",
+			"$slides"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/ppc_genesis_grandchild/",
+			"buttonLightestGreen",
+			"buttonLightGreen",
+			"green",
+			"$lightGray",
+			"$lightBlue",
+			"$lightestBlue",
+			"$white",
+			"$black"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 60.0
+	},
+	"output.git":
+	{
+		"height": 197.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"repea",
+				"themes/ppc_genesis/repeating-template.php"
+			],
+			[
+				"home",
+				"themes/ppc_genesis/home-template.php"
+			],
+			[
+				"assess",
+				"plugins/wpdevph-assessment/css/assessment-style.css"
+			],
+			[
+				"activity",
+				"themes/ppc_genesis/lib/dashboard_activity.php"
+			],
+			[
+				"mm-con",
+				"plugins/membermouse/includes/mm-constants.php"
+			],
+			[
+				"module",
+				"themes/ppc_genesis/ppc_genesis_grandchild/module-loop.php"
+			],
+			[
+				"workouts",
+				"themes/ppc_genesis/lib/dashboard_workouts.php"
+			],
+			[
+				"coach",
+				"themes/ppc_genesis/lib/dashboard_coachs_corner.php"
+			],
+			[
+				"dashboard",
+				"themes/ppc_genesis/lib/dashboard_tabs.php"
+			],
+			[
+				"dash",
+				"themes/ppc_genesis/lib/dashboard.php"
+			],
+			[
+				"function",
+				"themes/ppc_genesis/functions.php"
+			],
+			[
+				"tabs",
+				"themes/ppc_genesis/lib/dashboard_tabs.php"
+			],
+			[
+				"main",
+				"themes/ppc_genesis/ppc_genesis_grandchild/main.scss"
+			],
+			[
+				"dashtabs",
+				"themes/ppc_genesis/lib/dashboard_tabs.php"
+			],
+			[
+				"dep",
+				"themes/ppc_genesis/ppc_genesis_grandchild/dependencies_list.txt"
+			],
+			[
+				"genesischildjs",
+				"themes/ppc_genesis/ppc_genesis_grandchild/js/grandchild_js.js"
+			],
+			[
+				"work",
+				"themes/ppc_genesis/lib/dashboard_workouts.php"
+			],
+			[
+				"dashtab",
+				"themes/ppc_genesis/lib/dashboard_tabs.php"
+			],
+			[
+				"x_",
+				"themes/ppc_genesis/lib/x_2013.06.27_dashboard_tabs.php"
+			],
+			[
+				"post",
+				"plugins/post-series/post-series.php"
+			],
+			[
+				"single.php",
+				"themes/ppc_genesis/single.php"
+			],
+			[
+				"mm-constants.php",
+				"plugins/membermouse/includes/mm-constants.php"
+			],
+			[
+				"dashboard_co",
+				"themes/ppc_genesis/lib/dashboard_coachs_corner.php"
+			],
+			[
+				"dashboard_g",
+				"themes/ppc_genesis/lib/dashboard_group.php"
+			],
+			[
+				"main.css",
+				"themes/ppc_genesis/ppc_genesis_grandchild/main.css"
+			],
+			[
+				"single",
+				"themes/ppc_genesis/single.php"
+			],
+			[
+				"functions",
+				"themes/ppc_genesis/functions.php"
+			],
+			[
+				"footer_wi",
+				"themes/ppc_genesis/lib/footer_widgets.php"
+			],
+			[
+				"note",
+				"themes/ppc_genesis/ppc_genesis_grandchild/notes.txt"
+			],
+			[
+				"ppcgrandchilhead",
+				"themes/ppc_genesis/ppc_genesis_grandchild/internal-header.php"
+			],
+			[
+				"workout",
+				"themes/ppc_genesis/lib/dashboard_workouts.php"
+			],
+			[
+				"coachs",
+				"themes/ppc_genesis/lib/dashboard_coachs_corner.php"
+			],
+			[
+				"dashboar",
+				"themes/ppc_genesis/lib/dashboard_tabs.php"
+			],
+			[
+				"das",
+				"themes/ppc_genesis/lib/dashboard_group.php"
+			],
+			[
+				"x_tab",
+				"themes/ppc_genesis/lib/x_dashboard_tabs.php"
+			],
+			[
+				"dashboard_goal",
+				"themes/ppc_genesis/lib/dashboard_goals.php"
+			],
+			[
+				"ppc_genesisfun",
+				"themes/ppc_genesis/functions.php"
+			],
+			[
+				"intern",
+				"themes/ppc_genesis/ppc_genesis_grandchild/internal-header.php"
+			],
+			[
+				"dashboard_a",
+				"themes/ppc_genesis/lib/dashboard_activity.php"
+			],
+			[
+				"depen",
+				"themes/ppc_genesis/ppc_genesis_grandchild/dependencies_list.txt"
+			],
+			[
+				"reset",
+				"themes/ppc_genesis/ppc_genesis_grandchild/reset.css"
+			],
+			[
+				"ppcheader",
+				"themes/ppc_genesis/ppc_genesis_grandchild/header.php"
+			],
+			[
+				"head",
+				"themes/genesis/header.php"
+			],
+			[
+				"ppcfunction",
+				"themes/ppc_genesis/functions.php"
+			],
+			[
+				"ppcfooter",
+				"themes/ppc_genesis/parts/footer.php"
+			],
+			[
+				"ppcfunctions",
+				"themes/ppc_genesis/functions.php"
+			],
+			[
+				"template",
+				"themes/ppc_genesis/home-template.php"
+			],
+			[
+				"partsheader",
+				"themes/ppc_genesis/parts/header.php"
+			],
+			[
+				"partsfooter",
+				"themes/ppc_genesis/parts/footer.php"
+			],
+			[
+				"footer",
+				"themes/genesis/footer.php"
+			],
+			[
+				"loop",
+				"twentyten/loop.php"
+			],
+			[
+				"scss",
+				"css/main.scss"
+			],
+			[
+				"robo",
+				"robots.txt"
+			],
+			[
+				"def",
+				"_layouts/default.html"
+			],
+			[
+				"notes",
+				"notes.txt"
+			],
+			[
+				"dire",
+				"directions.html"
+			],
+			[
+				"css",
+				"css/main.css"
+			],
+			[
+				"nav",
+				"_includes/nav.html"
+			],
+			[
+				"herofunctions",
+				"wp-content/themes/hero-child/functions.php"
+			],
+			[
+				"herooptions",
+				"wp-content/themes/hero-child/options.php"
+			],
+			[
+				"foot",
+				"wp-content/themes/hero-child/footer.php"
+			],
+			[
+				"js.js",
+				"wp-content/themes/hero-child/js/js.js"
+			],
+			[
+				"sidebar",
+				"wp-content/themes/hero-child/sidebar.php"
+			],
+			[
+				"heroinde",
+				"wp-content/themes/hero-child/index.php"
+			],
+			[
+				"side",
+				"wp-content/themes/herothemetrust/sidebar.php"
+			],
+			[
+				"header",
+				"wp-content/themes/hero-child/header.php"
+			],
+			[
+				"js",
+				"wp-content/themes/hero-child/js/js.js"
+			],
+			[
+				"project",
+				"wp-content/themes/hero-child/single-project.php"
+			],
+			[
+				"style.css",
+				"wp-content/themes/hero-child/style.css"
+			],
+			[
+				"herojs",
+				"wp-content/themes/herothemetrust/js/theme_trust.js"
+			],
+			[
+				"func",
+				"wp-content/themes/hero-child/functions.php"
+			],
+			[
+				"options",
+				"wp-content/themes/hero-child/options.php"
+			],
+			[
+				"herocoption",
+				"wp-content/themes/hero-child/options.php"
+			],
+			[
+				"part-pro",
+				"wp-content/themes/herothemetrust/part-project-thumb.php"
+			],
+			[
+				"herostyle",
+				"wp-content/themes/herothemetrust/style.css"
+			],
+			[
+				"herosty",
+				"wp-content/themes/herothemetrust/style.css"
+			],
+			[
+				"herofunc",
+				"wp-content/themes/herothemetrust/functions.php"
+			],
+			[
+				"scroll",
+				"wp-content/themes/hero-child/js/scrollto.js"
+			],
+			[
+				"style",
+				"wp-content/themes/Five3/style.css"
+			],
+			[
+				"jquery",
+				"wp-includes/js/jquery/jquery.js"
+			],
+			[
+				"herofooter",
+				"wp-content/themes/herothemetrust/footer.php"
+			],
+			[
+				"smooth",
+				"wp-content/themes/hero-child/js/smoothscroll.js"
+			],
+			[
+				"herofunction",
+				"wp-content/themes/herothemetrust/functions.php"
+			],
+			[
+				"style.scss",
+				"style.scss"
+			],
+			[
+				"sy",
+				"wp-content/themes/herothemetrust/style.css"
+			],
+			[
+				"event",
+				"event.php"
+			],
+			[
+				"ev",
+				"event.php"
+			],
+			[
+				"even",
+				"event.php"
+			],
+			[
+				"",
+				"index.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"sty",
+				"style.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true
+}

@@ -544,6 +544,19 @@ object {
 .infinity-end.neverending .site-footer {
   display: block; }
 
+.headWrap, .site-main, footer {
+  width: 100%; }
+
+header, .content-area, .site-info {
+  margin: 0 auto;
+  width: 18em; }
+  @media only screen and (min-width: 768px) and (max-width: 979px) {
+    header, .content-area, .site-info {
+      width: 47em; } }
+  @media only screen and (min-width: 979px) {
+    header, .content-area, .site-info {
+      width: 61em; } }
+
 .mediaObj:after {
   content: "";
   display: table;
@@ -552,5 +565,14 @@ object {
 * {
   box-sizing: border-box; }
 
+body {
+  font-size: 16px; }
+
 img {
   padding: 0 !important; }
+
+header {
+  background-color: red; }
+
+.site-info {
+  background-color: red; }

@@ -30,6 +30,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 //       VF   `Moo9^Yo..JMML.   .JMML.`Moo9^Yo.P^YbmdP'.JMML.`Mbmmd' M9mmmP'
 
 
+// media querys shamelessly stolen/marginally adapted from https://gist.github.com/miguelmota/5316827
+$mobile-max-size: 640px !default;
+$tablet-min-size: 768px !default;
+$tablet-max-size: 979px !default;
+$desktop-min-size: 979px !default;
+$desktop-large-min-size: 1200px !default;
 
 
 //                   ,,               ,,             gp
@@ -48,6 +54,37 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	}
 }
 
+// media querys shamelessly stolen/marginally adapted from https://gist.github.com/miguelmota/5316827
+@mixin break($media) {
+	@if $media == mobile {
+		@media only screen and (max-width: $mobile-max-size) { @content; }
+	}
+	@else if $media == mobile-portrait {
+		@media only screen and (max-width: $mobile-max-size) and (orientation: portrait) { @content; }
+	}
+	@else if $media == mobile-landscape {
+		@media only screen and (max-width: $mobile-max-size) and (orientation: landscape) { @content; }
+	}
+	@else if $media == mobile-tablet {
+		@media only screen and (max-width: $tablet-max-size) { @content; }
+	}
+	@else if $media == tablet {
+		@media only screen and (min-width: $tablet-min-size) and (max-width: $tablet-max-size) { @content; }
+	}
+	@else if $media == tablet-landscape {
+		@media only screen and (min-width: $tablet-max-size) and (orientation: landscape) { @content; }
+	}
+	@else if $media == tablet-desktop {
+		@media only screen and (min-width: $tablet-max-size) { @content; }
+	}
+	@else if $media == desktop {
+		@media only screen and (min-width: $desktop-min-size) { @content; }
+	}
+	@else if $media == desktop-large {
+		@media only screen and (min-width: $desktop-large-min-size) { @content; }
+	}
+}
+
 
 
 //                                                        ,,
@@ -58,8 +95,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 //   MM   Y  ,     XMX      MM  8M""""""  MM    MM 8MI    MM
 //   MM     ,M   ,V' VA.    MM  YM.    ,  MM    MM `Mb    MM
 // .JMMmmmmMMM .AM.   .MA.  `Mbmo`Mbmmd'.JMML  JMML.`Wbmd"MML.
-
-
+%blockWrap {
+	width: 100%;
+}
+%block {
+	margin: 0 auto;
+	width: 18em; // 288px
+	@include break(tablet) {
+		width: 47em; // 752px
+	}
+	@include break(desktop) {
+		width: 61em; // 976px
+	}
+}
 
 //              ,,        ,,
 //   .g8""8q.  *MM        db                    mm
@@ -92,13 +140,32 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 * {
 	box-sizing: border-box;
 }
+body {
+	font-size: 16px;
+}
 img {
 	padding: 0 !important; // with box-sizing: border-box images should never have padding
 }
-
-
-
-
+.headWrap {
+	@extend %blockWrap;
+}
+header {
+	@extend %block;
+	background-color: red;
+}
+.site-main {
+	@extend %blockWrap;
+}
+.content-area {
+	@extend %block;
+}
+footer {
+	@extend %blockWrap;
+}
+.site-info { // inner footer
+	@extend %block;
+	background-color: red;
+}
 // `7MM"""Mq.
 //   MM   `MM.
 //   MM   ,M9 ,6"Yb.  .P"Ybmmm .gP"Ya  ,pP"Ybd
