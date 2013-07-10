@@ -37,6 +37,9 @@ $tablet-max-size: 979px !default;
 $desktop-min-size: 979px !default;
 $desktop-large-min-size: 1200px !default;
 
+// Colors
+$blue: #2a639e;
+$white: #FFFFFF;
 
 //                   ,,               ,,             gp
 // `7MMM.     ,MMF'  db               db             \/
@@ -108,7 +111,10 @@ $desktop-large-min-size: 1200px !default;
 		width: 61em; // 976px
 	}
 }
-
+%fillBox {
+	background-color: transparentize($white, 0.1);
+	border: 0.2em solid $blue;
+}
 //              ,,        ,,
 //   .g8""8q.  *MM        db                    mm
 // .dP'    `YM. MM                              MM
@@ -148,10 +154,11 @@ img {
 }
 .headWrap {
 	@extend %blockWrap;
+	background-color: $white;
+	border-bottom: 0.2em solid $blue
 }
 header {
 	@extend %block;
-	background-color: red;
 }
 .site-main {
 	@extend %blockWrap;
@@ -161,10 +168,11 @@ header {
 }
 footer {
 	@extend %blockWrap;
+	background-color: $blue;
+	border-top: 0.2em solid $white;
 }
 .site-info { // inner footer
 	@extend %block;
-	background-color: red;
 }
 // `7MM"""Mq.
 //   MM   `MM.
