@@ -92,6 +92,13 @@ function _s_scripts() {
 }
 add_action( 'wp_enqueue_scripts', '_s_scripts' );
 
+function socold_scripts() {
+	wp_enqueue_script( 'backstretch', get_template_directory_uri() . '/js/backstretch.2.0.4.min.js', array('jquery'), '', true );
+
+	wp_enqueue_script( 'site', get_template_directory_uri() . '/js/site.js', array('jquery'), '', true );
+}
+add_action( 'wp_enqueue_scripts', 'socold_scripts' );
+
 /**
  * Implement the Custom Header feature.
  */
