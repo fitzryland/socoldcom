@@ -18,6 +18,7 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+<?php include "js/phpassisted.php"; ?>
 
 </body>
 </html>

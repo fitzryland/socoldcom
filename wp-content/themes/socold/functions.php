@@ -128,3 +128,35 @@ require get_template_directory() . '/inc/jetpack.php';
  * WordPress.com-specific functions and definitions.
  */
 //require get_template_directory() . '/inc/wpcom.php';
+
+
+
+
+
+function custom_acf_image_output($aImg, $class, $size) {
+  if ($size) {
+		$widthString = $size . "-width";
+		$heightString = $size . "-height";
+		$imgStr = "<img src=\"" . $aImg['sizes'][$size] . "\" alt=\"" . $aImg['title'] . "\" width=\"" . $aImg['sizes'][$widthString] . "\" height=\"" . $aImg['sizes'][$heightString] . "\"";
+		if ($class) {
+			$imgStr .= " class=\"" . $class . "\"";
+		}
+		$imgStr .= ">";
+		return $imgStr;
+	} else {
+		$imgStr = "<img src=\"" . $aImg['url'] . "\" alt=\"" . $aImg['title'] . "\" width=\"" . $aImg['width'] . "\" height=\"" . $aImg['height'] . "\"";
+		if ($class) {
+			$imgStr .= " class=\"" . $class . "\"";
+		}
+		$imgStr .= ">";
+		return $imgStr;
+	}
+}
+
+
+
+
+
+
+
+
