@@ -114,6 +114,10 @@ $white: #FFFFFF;
 		width: 61em; // 976px
 	}
 }
+%fillBox {
+	background-color: transparentize($white, 0.2);
+	border: 0.2em solid $blue;
+}
 //              ,,        ,,
 //   .g8""8q.  *MM        db                    mm
 // .dP'    `YM. MM                              MM
@@ -192,11 +196,13 @@ img {
 	@extend %blockWrap;
 }
 .content-area {
-	@extend %block;
-	background-color: transparentize($white, 0.2);
-	border: 0.2em solid $blue;
+	@extend %block, %fillBox;
 	margin: 1em auto;
 	padding: 1em;
+	&.tansp {
+		background-color: transparent;
+		border: 0 solid transparent;
+	}
 }
 .site-footer {
 	@extend %blockWrap;
@@ -222,6 +228,23 @@ img {
 // .JMML.    `Moo9^Yo.YMMMMMb  `Mbmmd' M9mmmP'
 //                   6'     dP
 //                   Ybmmmd'
+.cocktails, .shavedice {
+	@extend %fillBox;
+	float: left;
+	width: 100%;
+	@include break(tablet-andup) {
+		width: 48%;
+	}
+}
+.cocktails {
+	@include break(mobile) {
+		margin-bottom: 1em;
+	}
+	@include break(tablet-andup) {
+		margin-right: 4%;
+	}
+}
+
 .entry-content {
 	float: left;
 	margin-top: 0;

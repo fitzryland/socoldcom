@@ -509,6 +509,10 @@ object {
     .site-header, .content-area, .site-info {
       width: 61em; } }
 
+.content-area, .cocktails, .shavedice {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0.2em solid #2a639e; }
+
 .mediaObj:after {
   content: "";
   display: table;
@@ -552,10 +556,11 @@ img {
     padding: 0; }
 
 .content-area {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 0.2em solid #2a639e;
   margin: 1em auto;
   padding: 1em; }
+  .content-area.tansp {
+    background-color: transparent;
+    border: 0 solid transparent; }
 
 .site-footer {
   background-color: #2a639e;
@@ -566,6 +571,20 @@ img {
     float: left;
     padding: 1em;
     width: 50%; } }
+
+.cocktails, .shavedice {
+  float: left;
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .cocktails, .shavedice {
+      width: 48%; } }
+
+@media only screen and (max-width: 640px) {
+  .cocktails {
+    margin-bottom: 1em; } }
+@media only screen and (min-width: 768px) {
+  .cocktails {
+    margin-right: 4%; } }
 
 .entry-content {
   float: left;
