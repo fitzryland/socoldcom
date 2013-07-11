@@ -17,7 +17,18 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'content', 'page' ); ?>
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+					<header class="entry-header">
+						<h1 class="entry-title"><?php the_title(); ?></h1>
+					</header><!-- .entry-header -->
+
+					<div class="entry-content">
+						<?php the_field('main_content'); ?>
+					</div><!-- .entry-content -->
+
+					<?php echo custom_acf_image_output(get_field('big_image'), '', 'side_image'); ?>
+
+				</article><!-- #post-## -->
 
 			<?php endwhile; // end of the loop. ?>
 
