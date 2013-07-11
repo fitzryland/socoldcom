@@ -561,12 +561,7 @@ img {
   background-color: #2a639e;
   border-top: 0.2em solid white; }
 
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-  .site-info aside {
-    float: left;
-    padding: 1em;
-    width: 50%; } }
-@media only screen and (min-width: 979px) {
+@media only screen and (min-width: 768px) {
   .site-info aside {
     float: left;
     padding: 1em;
@@ -584,3 +579,19 @@ img {
     .entry-content {
       padding: 1em;
       width: 33em; } }
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .page-template-product-template-php .entry-content {
+    width: 18em; } }
+@media only screen and (min-width: 979px) {
+  .page-template-product-template-php .entry-content {
+    width: 32em; } }
+
+@media only screen and (min-width: 768px) {
+  .product-description {
+    float: right; } }
+
+@media only screen and (min-width: 768px) {
+  .product-image {
+    float: left;
+    margin-right: 1em; } }

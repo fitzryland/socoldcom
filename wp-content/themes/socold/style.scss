@@ -74,6 +74,9 @@ $white: #FFFFFF;
 	@else if $media == tablet {
 		@media only screen and (min-width: $tablet-min-size) and (max-width: $tablet-max-size) { @content; }
 	}
+	@else if $media == tablet-andup {
+		@media only screen and (min-width: $tablet-min-size) { @content; }
+	}
 	@else if $media == tablet-landscape {
 		@media only screen and (min-width: $tablet-max-size) and (orientation: landscape) { @content; }
 	}
@@ -203,12 +206,7 @@ img {
 .site-info { // inner footer
 	@extend %block;
 	aside {
-		@include break(tablet) {
-			float: left;
-			padding: 1em;
-			width: 50%;
-		}
-		@include break(desktop) {
+		@include break(tablet-andup) {
 			float: left;
 			padding: 1em;
 			width: 50%;
@@ -235,5 +233,26 @@ img {
 	@include break(desktop) {
 		padding: 1em;
 		width: 33em;
+	}
+}
+.page-template-product-template-php {
+	.entry-content {
+		@include break(tablet) {
+			width: 18em;
+		}
+		@include break(desktop) {
+			width: 32em;
+		}
+	}
+}
+.product-description {
+	@include break(tablet-andup) {
+		float: right;
+	}
+}
+.product-image {
+	@include break(tablet-andup) {
+		float: left;
+		margin-right: 1em;
 	}
 }
