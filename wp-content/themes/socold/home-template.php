@@ -14,7 +14,7 @@ Template Name: Home Page
 
 					<div class="cocktails tansp">
 						<h2><?php the_field('c_title'); ?></h2>
-						<?php echo custom_acf_image_output(get_field('c_product_photo'), '', ''); ?>
+						<?php echo acf_image_output(get_field('c_product_photo'), '', ''); ?>
 						<div class="sellingPoints">
 							<?php the_field('c_selling_points'); ?>
 						</div>
@@ -22,7 +22,7 @@ Template Name: Home Page
 					</div>
 					<div class="shavedice tansp">
 						<h2><?php the_field('si_title'); ?></h2>
-						<?php echo custom_acf_image_output(get_field('si_product_photo'), '', ''); ?>
+						<?php echo acf_image_output(get_field('si_product_photo'), '', ''); ?>
 						<div class="sellingPoints">
 							<?php the_field('si_selling_points'); ?>
 						</div>

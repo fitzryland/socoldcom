@@ -137,10 +137,9 @@ require get_template_directory() . '/inc/jetpack.php';
 
 
 add_image_size('side_image', '400', '300', true);
-add_image_size('product_image', '400', '585', true);
 
 
-function custom_acf_image_output($aImg, $class, $size) {
+function acf_image_output($aImg, $class, $size) {
   if ($size) {
 		$widthString = $size . "-width";
 		$heightString = $size . "-height";

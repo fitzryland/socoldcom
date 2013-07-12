@@ -11,10 +11,8 @@
 					</header><!-- .entry-header -->
 
 					<div class="entry-content">
-						<?php the_field('main_content'); ?>
+						<?php the_content(); ?>
 					</div><!-- .entry-content -->
-
-					<?php echo custom_acf_image_output(get_field('big_image'), 'side-image', 'side_image'); ?>
 
 				</article><!-- #post-## -->
 

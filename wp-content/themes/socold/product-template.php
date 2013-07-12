@@ -15,13 +15,24 @@ Template Name: Product Page
 					<header class="entry-header">
 						<h1 class="entry-title"><?php the_title(); ?></h1>
 					</header><!-- .entry-header -->
-					<div class="product-description">
-						<?php the_field('brief_product_description'); ?>
-					</div>
-					<?php echo custom_acf_image_output(get_field('big_image'), 'product-image', 'product_image'); ?>
 					<div class="entry-content">
-						<?php the_field('main_content'); ?>
+						<?php the_content(); ?>
 					</div><!-- .entry-content -->
+					<div class="events">
+						<?php
+						$events = get_field('event');
+						if (sizeof($events) > 1) {
+							foreach ($events as $event) { ?>
+								<div class="mediaObj event">
+									<h1><?php echo $event['event_title']; ?></h1>
+									<?php echo acf_image_output($event['image'], 'media', 'side_image'); ?>
+									<div class="mediaDesc">
+										<?php echo $event['description']; ?>
+									</div>
+								</div>
+							<?php }
+						} ?>
+					</div>
 
 				</article><!-- #post-## -->
 

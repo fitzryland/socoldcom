@@ -26,17 +26,15 @@
 			<div class="site-branding">
 				<h1 class="site-title">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-						<?php echo custom_acf_image_output(get_field('header_logo', 'option'), '', ''); ?>
+						<?php echo acf_image_output(get_field('header_logo', 'option'), '', ''); ?>
 					</a>
 				</h1>
-				<h2 class="site-description"><?php the_field('text_under_logo', 'option'); ?></h2>
-				<div class="site-tagline"><?php the_field('text_right_of_logo', 'option'); ?></div>
-			</div>
-			<nav id="site-navigation" class="navigation-main" role="navigation">
-				<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', '_s' ); ?>"><?php _e( 'Skip to content', '_s' ); ?></a></div>
+				<nav id="site-navigation" class="navigation-main" role="navigation">
+					<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', '_s' ); ?>"><?php _e( 'Skip to content', '_s' ); ?></a></div>
 
-				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-			</nav><!-- #site-navigation -->
+					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+				</nav><!-- #site-navigation -->
+			</div>
 		</header><!-- #masthead -->
 	</div>
 

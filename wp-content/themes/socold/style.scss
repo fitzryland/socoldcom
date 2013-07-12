@@ -132,7 +132,10 @@ $white: #FFFFFF;
 	@include group();
 }
 .media {
-
+	@include break(tablet-andup) {
+		float: left;
+		margin-right: 1em;
+	}
 }
 .mediaDesc {
 
@@ -202,7 +205,12 @@ img {
 }
 .site-main {
 	@extend %blockWrap;
-	margin-top: 20em;
+	margin: 4.5em 0;
+}
+.admin-bar {
+	.site-main {
+//	 	margin-top: 6.5em;
+	}
 }
 .content-area {
 	@extend %block, %fillBox;
@@ -256,38 +264,24 @@ img {
 		margin-right: 4%;
 	}
 }
-
 .entry-content {
-	float: left;
-	margin-top: 0;
+	margin: 0 auto;
+	max-width: 50em;
 	padding-top: 0;
 	width: 100%;
 	@include break(tablet) {
-		width: 19em;
 	}
 	@include break(desktop) {
-		padding: 1em;
-		width: 33em;
 	}
 }
 .page-template-product-template-php {
 	.entry-content {
 		@include break(tablet) {
-			width: 18em;
 		}
 		@include break(desktop) {
-			width: 32em;
 		}
 	}
 }
-.product-description {
-	@include break(tablet-andup) {
-		float: right;
-	}
-}
-.product-image {
-	@include break(tablet-andup) {
-		float: left;
-		margin-right: 1em;
-	}
+.event {
+	margin-bottom: 2em;
 }
