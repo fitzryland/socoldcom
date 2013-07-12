@@ -529,7 +529,10 @@ img {
 
 .headWrap {
   background-color: white;
-  border-bottom: 0.2em solid #2a639e; }
+  border-bottom: 0.2em solid #2a639e;
+  left: 0;
+  position: fixed;
+  top: 0; }
 
 .site-branding h1, .site-branding h2 {
   float: left; }
@@ -555,6 +558,9 @@ img {
     margin: 0;
     padding: 0; }
 
+.site-main {
+  margin-top: 20em; }
+
 .content-area {
   margin: 1em auto;
   padding: 1em; }
@@ -564,7 +570,10 @@ img {
 
 .site-footer {
   background-color: #2a639e;
-  border-top: 0.2em solid white; }
+  border-top: 0.2em solid white;
+  bottom: 0;
+  left: 0;
+  position: fixed; }
 
 @media only screen and (min-width: 768px) {
   .site-info aside {

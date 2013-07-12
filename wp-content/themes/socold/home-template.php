@@ -12,7 +12,7 @@ Template Name: Home Page
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-					<div class="cocktails">
+					<div class="cocktails tansp">
 						<h2><?php the_field('c_title'); ?></h2>
 						<?php echo custom_acf_image_output(get_field('c_product_photo'), '', ''); ?>
 						<div class="sellingPoints">
@@ -20,7 +20,7 @@ Template Name: Home Page
 						</div>
 						<a href="<?php the_field('c_area_link'); ?>" class="button">More</a>
 					</div>
-					<div class="shavedice">
+					<div class="shavedice tansp">
 						<h2><?php the_field('si_title'); ?></h2>
 						<?php echo custom_acf_image_output(get_field('si_product_photo'), '', ''); ?>
 						<div class="sellingPoints">
