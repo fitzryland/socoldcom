@@ -534,6 +534,9 @@ img {
   position: fixed;
   top: 0; }
 
+.admin-bar .headWrap {
+  margin-top: 28px; }
+
 .site-branding h1, .site-branding h2 {
   float: left; }
   @media only screen and (max-width: 640px) {

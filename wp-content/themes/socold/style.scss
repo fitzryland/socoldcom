@@ -163,6 +163,11 @@ img {
 	position: fixed;
 	top: 0;
 }
+.admin-bar {
+	.headWrap {
+		margin-top: 28px;
+	}
+}
 .site-header {
 	@extend %block;
 }
