@@ -201,6 +201,10 @@ a {
 }
 .site-header {
 	@extend %block;
+	padding: 1em 0;
+}
+.site-title {
+	line-height: 0;
 }
 .site-branding {
 	h1, h2 {
@@ -234,7 +238,7 @@ a {
 .site-main {
 	@extend %blockWrap;
 	@include break(tablet-andup) {
-		margin: 4.5em 0;
+		margin: 6em 0;
 	}
 }
 .content-area {

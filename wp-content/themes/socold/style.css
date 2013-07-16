@@ -560,6 +560,12 @@ a:hover, a:active {
 .admin-bar .headWrap {
   margin-top: 28px; }
 
+.site-header {
+  padding: 1em 0; }
+
+.site-title {
+  line-height: 0; }
+
 .site-branding h1, .site-branding h2 {
   float: left; }
   @media only screen and (max-width: 640px) {
@@ -586,7 +592,7 @@ a:hover, a:active {
 
 @media only screen and (min-width: 768px) {
   .site-main {
-    margin: 4.5em 0; } }
+    margin: 6em 0; } }
 
 .content-area {
   margin: 1em auto;
