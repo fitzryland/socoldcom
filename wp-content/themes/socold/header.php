@@ -31,8 +31,8 @@
 				</h1>
 				<nav id="site-navigation" class="navigation-main" role="navigation">
 					<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', '_s' ); ?>"><?php _e( 'Skip to content', '_s' ); ?></a></div>
-
-					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'after' => '<span class="delimiter"> &amp;</span>' ) ); ?>
+					<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>
 				</nav><!-- #site-navigation -->
 			</div>
 		</header><!-- #masthead -->

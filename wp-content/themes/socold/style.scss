@@ -176,6 +176,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 2.5em;
 }
+h2 {
+	font-size: 2em;
+	line-height: 1em;
+}
 a {
 	&:link, &:visited {
 		color: $lightBlue;
@@ -196,15 +200,32 @@ a {
 }
 .admin-bar {
 	.headWrap {
-		margin-top: 28px;
+		@include break(tablet-andup) {
+			margin-top: 28px;
+		}
 	}
 }
 .site-header {
 	@extend %block;
 	padding: 1em 0;
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	li {
+		display: inline;
+		margin: 0;
+		padding: 0;
+	}
 }
 .site-title {
 	line-height: 0;
+	padding-bottom: 0.1em;
+	@include break(tablet-andup) {
+		padding: 0;
+	}
 }
 .site-branding {
 	h1, h2 {
@@ -223,20 +244,26 @@ a {
 	}
 }
 .menu-main-navigation-container {
-	text-align: center;
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
+	color: $blue;
+	font-family: $play;
+	font-size: 1.8em;
+	a {
+		&:link, &:visited {
+			color: $blue;
+		}
+		&:hover, &:active {
+			color: $lightBlue;
+		}
 	}
-	li {
-		display: inline;
-		margin: 0;
-		padding: 0;
+	li:nth-child(even) {
+		.delimiter {
+			display: none;
+		}
 	}
 }
 .site-main {
 	@extend %blockWrap;
+	min-height: 500px;
 	@include break(tablet-andup) {
 		margin: 6em 0;
 	}

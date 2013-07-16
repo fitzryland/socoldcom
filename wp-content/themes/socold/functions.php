@@ -46,6 +46,7 @@ function _s_setup() {
 	 */
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', '_s' ),
+		'secondary' => __( 'Secondary Menu' ),
 	) );
 
 	/**

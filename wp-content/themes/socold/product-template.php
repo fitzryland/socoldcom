@@ -24,7 +24,7 @@ Template Name: Product Page
 						if (sizeof($events) > 1) {
 							foreach ($events as $event) { ?>
 								<div class="mediaObj event">
-									<h1><?php echo $event['event_title']; ?></h1>
+									<h2><?php echo $event['event_title']; ?></h2>
 									<?php echo acf_image_output($event['image'], 'media', 'side_image'); ?>
 									<div class="mediaDesc">
 										<?php echo $event['description']; ?>
