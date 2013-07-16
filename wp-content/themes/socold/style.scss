@@ -38,8 +38,16 @@ $desktop-min-size: 979px !default;
 $desktop-large-min-size: 1200px !default;
 
 // Colors
+$lightBlue: #2371e9;
 $blue: #2a639e;
+$darkBlue: #0f2c55;
+
+$lightGreen: #29e86f;
+
 $white: #FFFFFF;
+
+// Fonts
+$play: 'Play', sans-serif;
 
 //                   ,,               ,,             gp
 // `7MMM.     ,MMF'  db               db             \/
@@ -153,18 +161,38 @@ $white: #FFFFFF;
 	box-sizing: border-box;
 }
 body {
+	color: $darkBlue;
 	font-size: 16px;
 }
 img {
-	padding: 0 !important; // with box-sizing: border-box images should never have padding
+	padding: 0 !important; /* with box-sizing: border-box images should never have padding */
+}
+h1, h2, h3, h4, h5, h6 {
+	color: $blue;
+	font-family: $play;
+	font-variant: small-caps;
+	font-weight: 400;
+}
+h1 {
+	font-size: 2.5em;
+}
+a {
+	&:link, &:visited {
+		color: $lightBlue;
+	}
+	&:hover, &:active {
+		color: $lightGreen;
+	}
 }
 .headWrap {
 	@extend %blockWrap;
 	background-color: $white;
 	border-bottom: 0.2em solid $blue;
-	left: 0;
-	position: fixed;
-	top: 0;
+	@include break(tablet-andup) {
+		left: 0;
+		position: fixed;
+		top: 0;
+	}
 }
 .admin-bar {
 	.headWrap {
@@ -205,11 +233,8 @@ img {
 }
 .site-main {
 	@extend %blockWrap;
-	margin: 4.5em 0;
-}
-.admin-bar {
-	.site-main {
-//	 	margin-top: 6.5em;
+	@include break(tablet-andup) {
+		margin: 4.5em 0;
 	}
 }
 .content-area {
@@ -225,9 +250,11 @@ img {
 	@extend %blockWrap;
 	background-color: $blue;
 	border-top: 0.2em solid $white;
-	bottom: 0;
-	left: 0;
-	position: fixed;
+	@include break(tablet-andup) {
+		bottom: 0;
+		left: 0;
+		position: fixed;
+	}
 }
 .site-info { // inner footer
 	@extend %block;

@@ -527,17 +527,35 @@ object {
   box-sizing: border-box; }
 
 body {
+  color: #0f2c55;
   font-size: 16px; }
 
 img {
-  padding: 0 !important; }
+  padding: 0 !important;
+  /* with box-sizing: border-box images should never have padding */ }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2a639e;
+  font-family: "Play", sans-serif;
+  font-variant: small-caps;
+  font-weight: 400; }
+
+h1 {
+  font-size: 2.5em; }
+
+a:link, a:visited {
+  color: #2371e9; }
+a:hover, a:active {
+  color: #29e86f; }
 
 .headWrap {
   background-color: white;
-  border-bottom: 0.2em solid #2a639e;
-  left: 0;
-  position: fixed;
-  top: 0; }
+  border-bottom: 0.2em solid #2a639e; }
+  @media only screen and (min-width: 768px) {
+    .headWrap {
+      left: 0;
+      position: fixed;
+      top: 0; } }
 
 .admin-bar .headWrap {
   margin-top: 28px; }
@@ -566,8 +584,9 @@ img {
     margin: 0;
     padding: 0; }
 
-.site-main {
-  margin: 4.5em 0; }
+@media only screen and (min-width: 768px) {
+  .site-main {
+    margin: 4.5em 0; } }
 
 .content-area {
   margin: 1em auto;
@@ -578,10 +597,12 @@ img {
 
 .site-footer {
   background-color: #2a639e;
-  border-top: 0.2em solid white;
-  bottom: 0;
-  left: 0;
-  position: fixed; }
+  border-top: 0.2em solid white; }
+  @media only screen and (min-width: 768px) {
+    .site-footer {
+      bottom: 0;
+      left: 0;
+      position: fixed; } }
 
 @media only screen and (min-width: 768px) {
   .site-info aside {
