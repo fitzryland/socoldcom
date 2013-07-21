@@ -669,7 +669,7 @@ a:hover, a:active {
   min-height: 500px; }
   @media only screen and (min-width: 768px) {
     .site-main {
-      margin: 7.5em 0 11em; } }
+      margin: 7.5em 0 6em; } }
 
 .content-area {
   margin: 1em auto;
@@ -690,11 +690,13 @@ a:hover, a:active {
 .site-info {
   color: white;
   text-align: center; }
-  @media only screen and (min-width: 768px) {
-    .site-info aside {
-      float: left;
-      padding: 1em;
-      width: 50%; } }
+  .site-info aside {
+    padding: 1em 0; }
+    @media only screen and (min-width: 768px) {
+      .site-info aside {
+        float: left;
+        padding: 1em;
+        width: 50%; } }
   .site-info h1 {
     color: white;
     text-align: center; }
@@ -706,6 +708,9 @@ a:hover, a:active {
     padding: 0 0.2em; }
     .site-info .icon:after {
       text-align: center; }
+
+.widget {
+  margin-bottom: 0; }
 
 a.icon:link, a.icon:visited {
   font-size: 3em;

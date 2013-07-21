@@ -281,7 +281,7 @@ a {
 	@extend %blockWrap;
 	min-height: 500px;
 	@include break(tablet-andup) {
-		margin: 7.5em 0 11em;
+		margin: 7.5em 0 6em;
 	}
 }
 .content-area {
@@ -308,6 +308,7 @@ a {
 	color: $white;
 	text-align: center;
 	aside {
+		padding: 1em 0;
 		@include break(tablet-andup) {
 			float: left;
 			padding: 1em;
@@ -330,6 +331,9 @@ a {
 			text-align: center;
 		}
 	}
+}
+.widget {
+	margin-bottom: 0;
 }
 a.icon {
 	&:link, &:visited {
