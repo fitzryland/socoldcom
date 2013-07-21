@@ -39,6 +39,7 @@ $desktop-min-size: 979px !default;
 $desktop-large-min-size: 1200px !default;
 
 // Colors
+$lightestBlue: #c9e8fe;
 $lightBlue: #2371e9;
 $blue: #2a639e;
 $darkBlue: #0f2c55;
@@ -184,9 +185,14 @@ h2 {
 a {
 	&:link, &:visited {
 		color: $lightBlue;
+		-webkit-transition: color 0.2s ease;
+		-moz-transition: color 0.2s ease;
+		-o-transition: color 0.2s ease;
+		-ms-transition: color 0.2s ease;
+		transition: color 0.2s ease;
 	}
 	&:hover, &:active {
-		color: $lightGreen;
+		color: $blue;
 	}
 }
 .headWrap {
@@ -275,7 +281,7 @@ a {
 	@extend %blockWrap;
 	min-height: 500px;
 	@include break(tablet-andup) {
-		margin: 7.5em 0;
+		margin: 7.5em 0 11em;
 	}
 }
 .content-area {
@@ -299,12 +305,36 @@ a {
 }
 .site-info { // inner footer
 	@extend %block;
+	color: $white;
+	text-align: center;
 	aside {
 		@include break(tablet-andup) {
 			float: left;
 			padding: 1em;
 			width: 50%;
 		}
+	}
+	h1 {
+		color: $white;
+		text-align: center;
+	}
+	a {
+		color: $white;
+		&:hover, &:active {
+			color: $lightestBlue;
+		}
+	}
+	.icon {
+		padding: 0 0.2em;
+		&:after {
+			text-align: center;
+		}
+	}
+}
+a.icon {
+	&:link, &:visited {
+		font-size: 3em;
+		text-decoration: none;
 	}
 }
 // `7MM"""Mq.
@@ -352,4 +382,11 @@ a {
 }
 .event {
 	margin-bottom: 2em;
+	&:not(:last-child) {
+		border-bottom: 0.2em solid $white;
+		padding-bottom: 3em;
+	}
+}
+.event-title {
+	margin-bottom: 0.5em;
 }
