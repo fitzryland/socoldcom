@@ -19,6 +19,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 //                          MM
 //                        .JMML.
 @import "reset";
+@import "icons";
 
 //                                ,,           ,,        ,,
 // `7MMF'   `7MF'                 db          *MM      `7MM
@@ -228,10 +229,13 @@ a {
 	}
 }
 .site-branding {
-	h1, h2 {
+	h1 {
 		float: left;
 		@include break(mobile) {
 			float: none;
+		}
+		@include break(desktop) {
+			margin-top: 0.2em;
 		}
 	}
 }
@@ -247,6 +251,12 @@ a {
 	color: $blue;
 	font-family: $play;
 	font-size: 1.8em;
+	@include break(tablet) {
+		font-size: 2.2em;
+	}
+	@include break(desktop) {
+		font-size: 2.3em;
+	}
 	a {
 		&:link, &:visited {
 			color: $blue;
@@ -265,7 +275,7 @@ a {
 	@extend %blockWrap;
 	min-height: 500px;
 	@include break(tablet-andup) {
-		margin: 6em 0;
+		margin: 7.5em 0;
 	}
 }
 .content-area {
