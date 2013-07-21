@@ -4,3 +4,7 @@
 - home page
 	- just the background photo
 	- direct to cocktails & shaved ice
+
+- Blue a little lighter
+	- more royal less navy -> color of tent
+- font -> bank gothic -> for headers
