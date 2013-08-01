@@ -41,7 +41,7 @@ $desktop-large-min-size: 1200px !default;
 // Colors
 $lightestBlue: #c9e8fe;
 $lightBlue: #2371e9;
-$blue: #2a639e;
+$blue: #2456c1;
 $darkBlue: #0f2c55;
 
 $lightGreen: #29e86f;
@@ -49,7 +49,9 @@ $lightGreen: #29e86f;
 $white: #FFFFFF;
 
 // Fonts
+
 $play: 'Play', sans-serif;
+$bankgothic: 'bankgothicbold', $play;
 
 //                   ,,               ,,             gp
 // `7MMM.     ,MMF'  db               db             \/
@@ -148,7 +150,14 @@ $play: 'Play', sans-serif;
 	}
 }
 .mediaDesc {
-
+	ul {
+		margin-left: 1em;
+	}
+	li {
+		@include break(tablet-andup) {
+			list-style-position: inside;
+		}
+	}
 }
 
 //            ,,                                          ,,        ,,
@@ -171,7 +180,7 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
 	color: $blue;
-	font-family: $play;
+	font-family: $bankgothic;
 	font-variant: small-caps;
 	font-weight: 400;
 }
@@ -255,7 +264,7 @@ a {
 }
 .menu-main-navigation-container {
 	color: $blue;
-	font-family: $play;
+	font-family: $bankgothic;
 	font-size: 1.8em;
 	@include break(tablet) {
 		font-size: 2.2em;

@@ -554,7 +554,7 @@ you can use the generic selector below, but it's slower:
 
 .content-area, .cocktails, .shavedice {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 0.2em solid #2a639e; }
+  border: 0.2em solid #2456c1; }
 
 .mediaObj:after {
   content: "";
@@ -565,6 +565,12 @@ you can use the generic selector below, but it's slower:
   .media {
     float: left;
     margin-right: 1em; } }
+
+.mediaDesc ul {
+  margin-left: 1em; }
+@media only screen and (min-width: 768px) {
+  .mediaDesc li {
+    list-style-position: inside; } }
 
 * {
   box-sizing: border-box; }
@@ -578,8 +584,8 @@ img {
   /* with box-sizing: border-box images should never have padding */ }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #2a639e;
-  font-family: "Play", sans-serif;
+  color: #2456c1;
+  font-family: "bankgothicbold", "Play", sans-serif;
   font-variant: small-caps;
   font-weight: 400; }
 
@@ -598,11 +604,11 @@ a:link, a:visited {
   -ms-transition: color 0.2s ease;
   transition: color 0.2s ease; }
 a:hover, a:active {
-  color: #2a639e; }
+  color: #2456c1; }
 
 .headWrap {
   background-color: white;
-  border-bottom: 0.2em solid #2a639e; }
+  border-bottom: 0.2em solid #2456c1; }
   @media only screen and (min-width: 768px) {
     .headWrap {
       left: 0;
@@ -649,8 +655,8 @@ a:hover, a:active {
     margin-left: 21em; } }
 
 .menu-main-navigation-container {
-  color: #2a639e;
-  font-family: "Play", sans-serif;
+  color: #2456c1;
+  font-family: "bankgothicbold", "Play", sans-serif;
   font-size: 1.8em; }
   @media only screen and (min-width: 768px) and (max-width: 979px) {
     .menu-main-navigation-container {
@@ -659,7 +665,7 @@ a:hover, a:active {
     .menu-main-navigation-container {
       font-size: 2.3em; } }
   .menu-main-navigation-container a:link, .menu-main-navigation-container a:visited {
-    color: #2a639e; }
+    color: #2456c1; }
   .menu-main-navigation-container a:hover, .menu-main-navigation-container a:active {
     color: #2371e9; }
   .menu-main-navigation-container li:nth-child(even) .delimiter {
@@ -679,7 +685,7 @@ a:hover, a:active {
     border: 0 solid transparent; }
 
 .site-footer {
-  background-color: #2a639e;
+  background-color: #2456c1;
   border-top: 0.2em solid white; }
   @media only screen and (min-width: 768px) {
     .site-footer {
